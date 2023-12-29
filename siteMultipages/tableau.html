@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Mon Tableau</title>
+</head>
+<body>
+    <header>
+        ->
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up"></i>
+                </button>
+            </a>
+            <img src="img/logo.png" alt="logo" />
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <nav>
+        <div class="ancreNav"><a href="index.html">Structure</a>
+         <a href="selecteur.html">Selecteur</a>
+         <a href="texte.html">Texte</a>
+         <a href="position.html">Position</a>
+         <a href="tableau.html">Tableau</a>
+        </div>
+    </nav>
+    <main>
+        <table>
+        <h3>Tableau</h3>
+        <thead>
+            <tr>
+            <th></th>
+            <td class="ciel">02/08/2017</td>
+            <td class="ciel">03/08/2017</td>
+            <td class="ciel">05/08/2017</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th></th>
+            <td class="ciel">02/08/2017</td>
+            <td class="ciel">03/08/2017</td>
+            <td class="ciel">05/08/2017</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <th rowspan="2">Air France</th>
+            <td class="blanc">Depart 10h- Arrivé 13h</td>
+            <td class="blanc">Départ 15h - Arrivé 18h</td>
+            <td class="blanc">Départ 17h - Arrivé 20h</td>
+            
+        </tr>
+       <tr>
+        <td>200$</td>
+        <td>180$</td>
+        <td>170$</td>
+    </tr>
+    <tr>
+
+        <th rowspan="2">Alitalia</th>
+        <td class="blanc">Départ à 6h Arrivé à 9h</td>
+        <td class="blanc">Départ à 13h Arrivé à 16h</td>
+        <td class="blanc">Départ à 21h Arrivé à 00h</td>
+
+    </tr>
+    <tr>
+        <td>120$</td>
+        <td>250$</td>
+        <td>100$</td>
+    </tr>
+       
+    </tbody>
+   
+    
+    </table>
+    </main>
+    <footer>
+        <small> &copy; 2020 Le PoleS </small>
+    </footer>
+</body>
+</html>

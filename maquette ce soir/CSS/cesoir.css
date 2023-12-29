@@ -1,0 +1,209 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+/@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi");
+body{
+    background: white;
+}
+ 
+ .container{
+    width: 42%;
+    height: 2000px;
+    margin: auto;
+    font-family: Baloo Thambi;
+    background: white;
+ 
+    border: 1px solid black;
+}
+header{
+   
+    justify-content: space-between;
+    background-image: url('https://t3.ftcdn.net/jpg/02/87/93/90/240_F_287939076_3vQqshznDUS3YVVBp7D0Ut6qiBTRqjdj.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+.dots{
+    padding: 1em 1em;
+    letter-spacing: 0.5em;
+}
+.ce_soir{
+   
+   
+    padding-left: 4em;
+ 
+}
+.ce_soir2{
+    font-size: 1.6em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.4em;
+  color:rgb(229,63,111);
+}
+.important{
+    width: 2em;
+    height: 10px;
+    margin-left: 7em;
+    color: pink;
+    background-color: pink;
+}
+.important2{
+    width: 2em;
+    height: 10px;
+    margin-left: 5em;
+    color: pink;
+    background-color: pink;
+}
+ul#menu{
+    margin-left: 30em;
+   height: 35px;
+   
+    padding: 0;
+    background: url(../images/bg_menu.gif)repeat-x 0 -25px; */
+    list-style: none;
+    float: left;
+ 
+   
+}
+ul#menu li{
+    float: left;
+ 
+    text-align: center;
+    margin-left: 2em;
+}
+ul#menu li a{
+    font-size: 0.7em;
+    font-weight: bold;
+    color: black;
+    display: block;
+    text-decoration: none;
+ 
+    border-right: 2px solid white;
+    float: left;
+}
+header .logo{
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+    margin-top: 5em;
+    background: url(../img/cerf.svg);
+}
+ 
+.clear{
+    clear: both;
+}
+#rang1{
+    width: 50em;
+    height: 20em;
+    margin: 0 auto;
+}
+#rang1 .texte{
+    width: 20em;
+    height: 20em;
+    background: url(../img/pattern.jpg);
+    float: left;
+}
+p{
+    font-size: 0.7em;
+    padding: 2em 4em 1em 4em;
+    text-align: center;
+}
+h2{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+hr{
+    width: 2em;
+    height: 2px;
+    margin-left: 9em;
+    color: pink;
+    background-color: pink;
+}
+.rose{
+    font-size: 0.9;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    color: pink;
+}
+#rang1 .image{
+    width: 30em;
+    height: 20em;
+    transform: rotateY(180deg);
+    background: url(../img/asperge.jpg);
+    float: left;
+}
+#rang2{
+    width: 50em;
+    margin: 0 auto;
+}
+#rang2 .image{
+    width: 30em;
+    height: 20em;
+    background: url(../img/savon.jpgg);
+    float: left;
+}
+#rang2 .texte{
+    width: 20em;
+    height: 20em;
+    background: url(../img/pattern.jpg);
+    float: left;
+}
+#rang3{
+    width: 50em;
+    margin: 0 auto;
+}
+#rang3 .texte{
+    width: 20em;
+    height: 20em;
+    background: url(..url);
+    float: left;
+}
+#rang3 .image{
+    width: 30em;
+    height: 20em;
+    background: url(../img/moule.jpg);
+    float: left;
+}
+.rang4{
+    width: 50em;
+    height: 30em;
+    margin: 0 auto;
+    background: url(../img/oeuf.jpg);
+    float: left;
+}
+footer{
+    width: 50em;
+    height: 15em;
+    margin: 0 auto;
+    background: url(../img/motif.jpg);
+ 
+}
+#contact .footer_haut{
+    font-size: 0.8em;
+    text-align: left;
+   
+}
+#contact .footer_bgauche{
+    font-size: 0.6em;
+    text-align: left;
+    padding-top: 0.5em;
+    padding-left: 5em;
+}
+#contact .footer_bdroit{
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-align: right;
+    float: right;
+    margin-top: -5em;
+}
+#contact .footer_bdroit a{
+    color: pink;
+  width: 50%;
+}

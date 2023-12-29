@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body,
+div,
+small,
+footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header {
+	background: #2c3e50;
+	height: 175px;
+}
+h1 {
+	color: #2980b9;
+	font-size: 45px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: "Anton", sans-serif;
+}
+h2 {
+	font-size: 35px;
+	color: #2c3e50;
+	padding: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #aaa;
+}
+h3 {
+	font-size: 22px;
+	color: #2c3e50;
+	padding: 15px;
+	text-shadow: 1px 1px 2px #aaa;
+}
+#logo {
+	float: left;
+	width: 25%;
+	padding: 15px;
+	text-align: center;
+}
+#slogan {
+	float: left;
+	width: 50%;
+	padding-top: 50px;
+}
+#social {
+	float: left;
+	width: 25%;
+}
+#social i {
+	font-size: 30px;
+	text-align: right;
+	padding: 15px 30px 0 0;
+	display: block;
+}
+header a {
+	color: #2980b9;
+	text-decoration: none;
+}
+button {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	border: none;
+	background: transparent;
+	font-size: 350%;
+	color: #2d5c7f;
+	cursor: pointer;
+}
+nav {
+	background: #2980b9;
+	height: 70px;
+	border-bottom: 8px solid #6acafc;
+	text-align: center;
+	padding: 15px;
+}
+nav a {
+	margin: 10px;
+	padding: 2px 10px;
+	border-radius: 10px 0px;
+	border: 2px solid white;
+	background: #6acafc;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: oswald;
+	transition: 0.5s;
+}
+nav a:hover {
+	background: #a6d6c3;
+	color: white;
+}
+footer {
+	background: #2980b9;
+	height: 30px;
+	text-align: right;
+	padding: 5px 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+main {
+	background: rgba(178, 178, 178, 0.3);
+	width: 1000px;
+	margin: 0 auto;
+}
+section {
+	margin-top: 50px;
+	padding: 20px;
+}
+blockquote {
+	font-style: italic;
+	font-size: 120%;
+}
+strong {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+.select p {
+	color: red;
+}
+.select p:first-of-type,
+.select p:last-of-type {
+	color: pink;
+}
+.select p:nth-of-type(5),
+.select p:nth-of-type(6) {
+	color: black;
+}
+.select div:not(.zoneB) {
+	font-weight: bold;
+}
+.select .zoneA {
+	color: #f56f56;
+}
+.select .zoneB {
+	color: #996633;
+}
+.select .zoneB .couleurBleu {
+	color: blue;
+	font-size: 16px;
+}
+.select #zoneC {
+	color: #98f32f;
+}
+.select #zoneD span {
+	color: #32ff32;
+	font-size: 30px;
+	font-style: italic;
+}
+.imageFond {
+	background: #000 url(../img/fond.jpg) no-repeat;
+	background-size: cover;
+}
+.imageFond p {
+	width: 75%;
+	margin: 100px auto 200px auto;
+	background: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	font-size: 120%;
+	border-radius: 10px;
+}
+figure {
+	margin: auto;
+	width: 250px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.678);
+}
+figcaption {
+	color: white;
+	text-align: center;
+	padding: 2px;
+	font-style: oblique;
+}
+.rotationImg {
+	text-align: center;
+}
+.image {
+	margin: 20px;
+	border: 5px solid #eee;
+	/*rgba sera utiliser dans ce cas pour cree une ombre à mon image*/
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	transition: 1s;
+}
+.image:hover {
+	transform: rotate(-7deg);
+	border: 15px solid #eee;
+}
+.rotation360:hover {
+	transform: rotate(-360deg);
+}
+.centre {
+	border: 1px solid black;
+	width: 505px;
+	height: 125px;
+	background-color: #33cccc;
+}
+.jaune {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: absolute;
+	left: 45px;
+}
+.absolute {
+	position: absolute;
+	top: 24%;
+}
+.cent {
+	width: 100%;
+	padding: 20px;
+	font-size: 22px;
+	
+}
+
+.ciel{
+	
+	border: 1px solid #6495ED;
+	background-color: #D0E3FA;
+	border-collapse: collapse;
+}
+td{
+	
+	
+}
+.blanc{
+	border: 1px solid #6495ED;
+}
+table{
+	border: 1px solid #6495ED;
+}
+#Haut{
+	width: 800px;
+	height: 80px;
+	background-color: #F7F39A;
+	
+	text-align: center;
+}
+
+#Gauche{
+	background-color: #A3DE83;
+	height: 525px;
+	width: 160px;
+	text-align: center;
+	float: left;
+	
+	
+	
+}
+#Gauche p{
+	margin: 0px;
+}
+#Droite{
+	background-color: #38817A;
+	width: 640px;
+	height: 525px;
+	text-align: center;
+    float: left;
+}

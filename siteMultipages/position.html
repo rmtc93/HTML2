@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ma page Position</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="description" content="Mes positions en HTML/CSS">
+    <meta charset="UTF-8">
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Niamatullah Ahmadzai</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">22280700.0000000</mso:Order>
+<mso:Cr��le msdt:dt="string">2022-01-04T07:23:33Z</mso:Cr��le>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Niamatullah Ahmadzai</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x01010043D02664A89AAD48A0D0F75A37AE079A</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:MediaLengthInSeconds msdt:dt="string"></mso:MediaLengthInSeconds>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <div class="ancreNav">
+            <a href="index.html">Structure</a>
+            <a href="texte.html">Texte</a>
+            <a href="selecteur.html">Selecteur</a>
+            <a href="image.html">Image</a>
+            <a href="position.html" class="activ">Position</a>
+            <a href="zoning.html">Zoning</a>
+            <a href="tableau.html">Tableau</a>
+            <a href="liste.html">Liste</a>
+            <a href="lien_menu.html">Lien & menu</a>
+            <a href="formulaire.html">Formulaire</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="animation.html">Animation</a>
+        </div>
+    </nav>
+    <main>
+        <h2>Position</h2>
+
+        <section>
+            <h3>Centrer un élément de type block</h3>
+            <div class="centre"></div>
+            
+        </section>
+        
+        <section>
+            <h3>Position Absolute</h3>
+            <p>Carré JAUNE ! Regarde en haut ! </p>
+            <div class="absolute"></div>
+        </section>
+
+        <section>
+            <h3>Position Relative</h3>
+            <div class="relative">
+                <div></div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Position fixed</h3>
+            <p>Bouton retour vers le haut</p>
+            <button type="button">
+                <i class="fas fa-arrow-circle-up"></i>
+            </button>
+        </section>
+
+        <section>
+            <h3>Le pourcentage</h3>
+            <div class="trente">30%</div>
+            <div class="cinquante">50%</div>
+            <div class="cent">100%</div>
+        </section>
+
+        <section>
+            <h3>L'attribut Float</h3>
+
+            <div class="float">1</div>
+            <div class="float">2</div>
+            <div class="float">3</div>
+            <div class="float">4</div>
+            <div class="float clear">5</div>
+            <div class="float">6</div>
+            <div class="float">7</div>
+            <div class="float clear">8</div>
+            <div class="float">9</div>
+            <div class="float clear">10</div>
+        </section>
+
+        <!-- <div class="clear"></div> -->
+        
+        <section>
+            <h3>Exercice sur le Float</h3>
+
+            <div class="zone"></div>
+            <div class="zone1"></div>
+            <div class="zone2"></div>
+            <div class="zone3"></div>
+            <div class="zone4"></div>
+            <div class="zone clear"></div>
+        </section>
+
+        <section>
+            <h3>Flexbox</h3>
+            <!-- Se place en fonction de l'élément parent -->
+            <article class="flex">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </article>
+        </section>
+    </main>
+    <aside class="jaune"></aside>
+    <footer>
+        <small>
+            &copy; 2020 Le Poles
+        </small>
+    </footer>
+</body>
+
+
+</html>
